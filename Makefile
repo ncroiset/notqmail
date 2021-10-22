@@ -886,7 +886,7 @@ preline.0 condredirect.0 bouncesaying.0 except.0 maildirmake.0 \
 maildir2mbox.0 qmail.0 qmail-limits.0 qmail-log.0 \
 qmail-control.0 qmail-header.0 qmail-users.0 dot-qmail.0 \
 qmail-command.0 tcp-environ.0 maildir.0 mbox.0 addresses.0 \
-envelopes.0 forgeries.0
+envelopes.0 forgeries.0 qmail-qfilter.0
 
 mbox.0: \
 mbox.5
@@ -1252,6 +1252,9 @@ sgetopt.h subgetopt.h control.h constmap.h stralloc.h gen_alloc.h \
 fmt.h str.h scan.h open.h error.h getln.h exit.h auto_break.h auto_qmail.h \
 auto_users.h byte.h
 	./compile qmail-pw2u.c
+
+qmail-qfilter.0: \
+qmail-qfilter.1
 
 qmail-qmqpc: \
 load qmail-qmqpc.o slurpclose.o timeoutread.o timeoutwrite.o \
