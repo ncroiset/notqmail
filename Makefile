@@ -782,7 +782,7 @@ qmail-qfilter \
 forward preline condredirect bouncesaying except maildirmake \
 maildir2mbox install instpackage instqueue instchown \
 instcheck home home+df proc proc+df binm1 binm1+df binm2 binm2+df \
-binm3 binm3+df 
+binm3 binm3+df
 
 load: \
 make-load warn-auto.sh
